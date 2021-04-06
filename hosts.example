@@ -1,0 +1,14 @@
+127.0.0.1     localhost
+
+# 1. step:
+# ========
+# Copy this file to this name: "hosts"
+
+# 2. step:
+# ========
+# Add as many lines as you want with [WSL_ADDRESS] and a space character
+# prefix. For example:
+
+[WSL_ADDRESS] my-test-domain.test
+[WSL_ADDRESS] another-test-domain.test
+[WSL_ADDRESS] awesome-project.test
