@@ -1,13 +1,21 @@
-# How to use
+# Set WSL IP address to Windows's hosts file
 
 1. Start WSL
 
-2. Run `set-wsl-ip-to-hosts-file.ps1` as Administrator
+2. Create a copy of `hosts.example` as `hosts` file.
 
-3. Your test domains are set.
+3. Set up your domain in newly created `hosts` file.
+
+4. Run `& ".\set-wsl-ip-to-hosts-file.ps1"` command in PowerShell as Administrator
+
+5. Your test domains are set.
+
+On next time you need use only the 4. step.
+
+If you want to add new domain, just use 3. and 4. step.
 
 
-# `.bashrc`
+# Set up your `.bashrc`
 
 ## Show current git branch
 
