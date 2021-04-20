@@ -36,6 +36,19 @@ export PS1="\u@\h \[\e[255;48;5;32m\]\w >\[\e[255;48;5;2m\]\$(parse_git_branch)\
 sudo service docker start
 ```
 
+## Sync your WSL datetime
+
+First run this command:
+
+`sudo apt install ntpdate`
+
+Then add this lines to `.bashrc`
+
+```bash
+# sync system date
+sudo ntpdate pool.ntp.org
+```
+
 ## Go to `code` folder automatically
 
 ```bash
